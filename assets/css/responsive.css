@@ -1,0 +1,31 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .navbar-nav ul{
+        flex-direction: column;
+        position: relative;
+    }
+  
+    .feature-area{
+        flex-direction: column;
+    }
+    .header-inner{
+        flex-direction: column;
+    }
+    
+    .header-banner img{
+
+        height: 300px;
+        
+    }
+    .about-area{
+        flex-direction: column;
+    }
+    .services-area-1{
+        flex-direction: column;
+    }
+    .services-area-2{
+        flex-direction: column;
+    }
+    .services-area-3{
+        flex-direction: column;
+    }
+}

@@ -171,3 +171,82 @@ header{
     color: var(--white-color);
 }
 /* feature section end */
+/* about section start */
+.about-section{
+    margin-top: 40px;
+}
+.about-content{
+    flex: 1 1 100%;
+}
+.about-content h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+.about-content h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 20px 0px 30px 0px;
+}
+.about-banner{
+    flex: 1 1 100%;
+}
+.about-content a{
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    padding: 10px 30px;
+    transition: var(--transition);
+}
+.about-content a:hover{
+    background: var(--secondary-color);
+    color: var(--white-color);
+}
+/* about section end */
+/* services section start */
+.services{
+    margin-top: 40px;
+}
+.services-heading{
+    text-align: center;
+}
+.services-heading h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+.services-heading h3{
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+.sevices-content{
+    flex:1 1 100%;
+}
+.sevices-content{
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 40px 50px;
+}
+.sevices-content .fa-hotel{
+    background: rgba(85, 56, 248,.5);
+    padding: 40px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.sevices-content h2{
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.sevices-content p{
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+/* services section end */
